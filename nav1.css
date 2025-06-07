@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-head {
+  cursor: pointer;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.container-fluid > .txt {
+  color: #7e22ce;
+  font-size: 30px;
+}
+
+.txt:hover {
+  transition: transform 2s ease-out;
+  transform: scale(1.05);
+}
+
+.linkU:hover {
+  font-weight: 500;
+  color: #7e22ce;
+}
+
+.linkU:active{
+  border-radius: 5px;
+}
+
+.collapse .fa-2xl {
+  font-size: 45px;
+}
+
+.collapse i {
+  cursor: pointer;
+}
+
+.collapse .user-profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.collapse .name {
+  display: flex;
+  flex-direction: column;
+}
+.collapse i:hover {
+  transform: scale(1.04);
+  transition: transform 0.5s;
+}
+.collapse .name span:nth-child(2) {
+  font-size: 11px;
+}
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.text {
+  font-size: 45px;
+}
+
+.text b {
+  color: #7e22ce;
+}
+b:hover {
+  text-shadow: 0px 0px 20px #7e22ce;
+}
+.text .subconten {
+  font-size: 15px;
+  width: 455px;
+}
+.login-register .login-nav-btn,.login-register .regi-nav-btn{
+  font-weight:500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: 0.5px solid #4158d0;
+}
+
+.login-register .login-nav-btn:hover,.login-register .regi-nav-btn:hover{
+  background: linear-gradient(-205deg, #c850c0, #4158d0);
+  color:whitesmoke;
+  transform: scale(0.97);
+  font-weight:600;
+}
+
+form .field input[type="submit"]:active{
+  font-size: 16px;
+}

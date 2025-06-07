@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Poppins',Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+.container form .in{
+    border: 0.1px solid dark;   
+}
+.modal-body form .update_Btn{
+    letter-spacing:2px;
+    margin-left: 10px;
+    padding:8px 20px 8px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    font-size: 15px;
+    border: 0.5px solid #4158d0;
+    font-weight: 500;
+}
+
+.modal-body form .update_Btn:hover{
+    background: linear-gradient(-205deg, #c850c0, #4158d0);
+    color:whitesmoke;
+    transform: scale(0.97);
+}
+.container form .addEmp{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 0.5px solid #4158d0;
+    font-weight: 500;
+}
+
+.container form .addEmp:hover{
+    background: linear-gradient(-205deg, #c850c0, #4158d0);
+    color:whitesmoke;
+    transform: scale(0.97);
+}
+
+tbody .text-center .editData{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 0.5px solid #4158d0;
+    font-weight: 500;
+}
+
+tbody .text-center .editData:hover{
+    background: linear-gradient(-205deg, #c850c0, #4158d0);
+    color:whitesmoke;
+    transform: scale(0.97);
+    font-weight: bold;
+}
+
+.dialog{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.button{
+    background-color: #7e22ce;
+}
+.dialog .inp{
+    border:2px solid white;
+    background:transparent;    
+}
+.title{
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #7e22ce;
+}
+
+.tb{
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #7e22ce;
+}
